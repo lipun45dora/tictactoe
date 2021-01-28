@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head runat="server">
+    <title>Tic Tac Toe</title>
+    <script src="tictactoe.js"></script>
+<style>
+   h1 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
+    color:lightgoldenrodyellow;
+}
+      div {
+  text-align: center;
+  margin: 0px auto;
+  text-align: center;
+  margin: auto;
+}
+body {
+    background-color: #09de1e;
+}
+
+.cell {
+  width:85px;
+  height:85px;
+  border: 5px solid #0026ff;
+  background: #FFFFFF;
+  font-size: 46pt;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+
+}
+
+.cell:hover {
+  background: #C2DBFC;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+        <h1>Tic Tac Toe</h1>
+        <div>
+            <table>
+                <tr>
+                    <td id="cell11" class="cell">&nbsp;</td>
+                    <td id="cell12" class="cell">&nbsp;</td>
+                    <td id="cell13" class="cell">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="cell21" class="cell">&nbsp;</td>
+                    <td id="cell22" class="cell">&nbsp;</td>
+                    <td id="cell23" class="cell">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="cell31" class="cell">&nbsp;</td>
+                    <td id="cell32" class="cell">&nbsp;</td>
+                    <td id="cell33" class="cell">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+        <br /><br />
+        <input id="reset" type="button" value="RESET" />
+        <br /><br />
+</body>
+</html>
